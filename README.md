@@ -25,6 +25,9 @@ Linux shows UI (UI is written on Qt), handles buttons and sends uplevel commands
 ###### 4K (3840x2160) 29.97 fps patches
 - You can force H.264 100 Mb/s bitrate.
 - You can force H.264 GOP size = 1 (All-Intra mode).
+###### 4K (3840x2160) 24 fps patches
+- You can force H.264 100 Mb/s bitrate.
+- You can force H.264 GOP size = 1 (All-Intra mode).
 
 ## How to apply patch from this repository?
 Each patch is an "autoexec.asc" file. You just place it on the root of your micro-sd card and start E1 with this micro-sd card in it. Patch is applied automatically. If you want to disable patch - just remove "autoexec.asc" from your micro-sd card.
