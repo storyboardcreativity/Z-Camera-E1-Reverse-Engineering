@@ -15,6 +15,7 @@ Linux shows UI (UI is written on Qt), handles buttons and sends uplevel commands
 3. Fixed H.264 GOP structure for each single capturing mode.
 4. Chroma subsampling is 4:2:0.
 5. Pixel bit depth for video is 24 bpp (R = 8, G = 8, B = 8), but sensor captures at 30 bpp (R = 10, G = 10, B = 10).
+6. Compressed AAC sound (128 kb/s).
 
 ## What features can be obtained using your patches?
 ###### MJPEG patches
@@ -28,6 +29,8 @@ Linux shows UI (UI is written on Qt), handles buttons and sends uplevel commands
 ###### 4K (3840x2160) 24 fps patches
 - You can force H.264 100 Mb/s bitrate.
 - You can force H.264 GOP size = 1 (All-Intra mode).
+###### Uncompressed PCM 16-bit sound instead of AAC
+- You can record uncompressed sound in all modes
 
 ## How to apply patch from this repository?
 Each patch is an "autoexec.asc" file. You just place it on the root of your micro-sd card and start E1 with this micro-sd card in it. Patch is applied automatically. If you want to disable patch - just remove "autoexec.asc" from your micro-sd card.
